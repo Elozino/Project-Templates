@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    color: rgb(14, 46, 46);
+    font-size: 2rem;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+}
+
+.container > .box{
+    width: 100%;
+    background-color: tomato;
+}
