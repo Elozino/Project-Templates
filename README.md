@@ -5,5 +5,5 @@ Web developments cycle is larger and keeps growing and sometimes we just need te
 PS: We never stop learning. Do more, be more.
 
 # List of Templates
-1. Testimonail card
+1. Testimonial card
 2. Image Gird 
